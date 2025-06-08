@@ -9,7 +9,7 @@ if (typeof window === 'undefined') {
   path = require('path');
 }
 
-const configFileName = 'sample.config.toml';
+const configFileName = 'config.toml';
 
 interface Config {
   GENERAL: {
