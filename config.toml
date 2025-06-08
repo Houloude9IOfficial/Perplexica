@@ -20,13 +20,13 @@ API_URL = ""
 MODEL_NAME = ""
 
 [MODELS.OLLAMA]
-API_URL = "" # Ollama API URL - http://host.docker.internal:11434
+API_URL = "http://host.docker.internal:11434" # Ollama API URL - 
 
 [MODELS.DEEPSEEK]
 API_KEY = ""
 
 [MODELS.LM_STUDIO]
-API_URL = "" # LM Studio API URL - http://host.docker.internal:1234
+API_URL = "http://host.docker.internal:1234" # LM Studio API URL - 
 
 [API_ENDPOINTS]
-SEARXNG = "" # SearxNG API URL - http://localhost:32768
+SEARXNG = "http://localhost:32768" # SearxNG API URL - 
